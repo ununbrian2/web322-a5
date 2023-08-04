@@ -22,7 +22,7 @@
 
               <td>{{this.id}}</td>
               <td>{{this.title}}</td>
-              <td>{{this.postDate}}</td>
+              <td>{{formatDate this.postDate "MM/DD/YYYY"}}</td>
               <td><a
                   href="/items?category={{this.category.id}}"
                 >{{this.category}}</a></td>
